@@ -93,7 +93,7 @@ DATABASES = {
 
         'PASSWORD': os.getenv("DB_PASSWORD"),
 
-        'HOST': os.getenv("DB_HOST"),
+        'HOST': os.getenv("DB_HOST"),  # for Docker it should be db, but for local it should be localhost
 
         'PORT': os.getenv("DB_PORT"),
 
